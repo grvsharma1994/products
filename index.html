@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUMA ADMIN PANEL</title>
+    <style>
+      body{
+        background-color: aquamarine;
+        padding: 0px;
+        margin: 0px;
+      }
+      #nav
+      {
+        display:flex;
+        color: white;
+        background-color: blue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 20px;
+        
+      }
+      #form
+      {
+        display: flex;
+        color: white;
+        background-color: blue;
+        padding-left: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        width:25px;
+        border-radius: 10px;
+        box-shadow: aliceblue;
+      }
+      #table{
+        display:flex;
+        color: white;
+        background-color: aquamarine;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        margin-top: 10px;
+      }
+      #button
+      {
+        margin-top:8%;
+        padding:4%;
+        border-radius: 9px;
+        border: 5px solid red;
+        outline:none;
+        font-weight:bold;
+        width:20px;
+        height:15px;
+
+      }
+      </style>
+  </head>
+
+  <body>
+    
+    <div id="navbar">
+      <p id="sp">Show Products-<span></span></p>
+      <button id = "Add Products"></button>
+      <!--Create Show Products button here, give id as "show_products". avoid making spelling mistakes in HTML id's-->
+    </div>
+    <div>
+      <form id ="form">
+        <div id ="ap">Add Products</div>
+        <input type ="text" id ="type"placeholder="Type"required>
+        <input type ="text" id ="dec"placeholder="Description"required>
+        <input type ="number" id ="price"placeholder="Price"required>
+        <input type ="url" id ="image"placeholder="Image"required>
+        <!-- <input type="add products" id="add" value="ADD PRODUCTS"> -->
+
+  </form></div>
+      <h2>Add Products</h2>
+      <!--Create a form here to accept product data from user, give form HTML id as "products"-->
+
+      <!--Create four inputs to accept Type, Description, price, & image-->
+      <!--give the inputs following respective id's, "type", "desc", "price","image"-->
+      <!--create a "Add Product" button to submit form, give it html id as "add_product"-->
+      
+    
+  </body>
+</html>
+
+<script src="./scripts/index.js"></script>
